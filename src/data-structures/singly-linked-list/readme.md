@@ -4,6 +4,13 @@ Linked List is a data structure consisting of a group of vertices (nodes) which 
 
 Linked List and its variations are used as underlying data structure to implement List, Stack, Queue, and Deque ADTs
 
+
+## Time complexity for LinkedList
+- Insertion: O(1)
+- Removal: It depends... From the beginning O(1) or O(N)
+- Searching: O(N)
+- Access: O(N)
+
 ## Lists Vs Arrays
 
 ### Lists
@@ -26,3 +33,7 @@ Linked List and its variations are used as underlying data structure to implemen
 - Insert: Adds a new node in the specified position
 - Remove: Removes a node from the list, based on its position
 - Reverse: Reverses the order of the list
+
+## Summary
+- Singly Linked Lists are an excellent alternative to arrays when insertion and deletion at the beginning are frequently required.
+- The idea of a list data structure that consist of nodes is the foundation for other data structures like Stacks and Queues.
