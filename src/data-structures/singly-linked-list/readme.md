@@ -1,4 +1,4 @@
-# Singly Linked list
+# Singly Linked list in JavaScript
 
 Linked List is a data structure consisting of a group of vertices (nodes) which together represent a sequence. Under the simplest form, each vertex is composed of a data and a reference (link) to the next vertex in the sequence or to null. A singly linked list contains a head, tail and length property.
 
