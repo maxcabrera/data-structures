@@ -5,14 +5,16 @@ Linked List is a sequence of nodes, where each node links to the next node and t
 - The first node in the list is called Head
 - The last node in the list is called Tail
 - The head and the tail are the same when there is only one node in the list
-- There is no index, like in the arrays. So no random access is allowed. To access an node we need to start from the head and follow the links to the next nodes until we find the one we want.
+- There is no index, like in the arrays.
 - List contain a length property to know how many nodes are in it.
 - They can hold any type of data, like strings, numbers, objects.
 - Data in the list can be sorted or unsorted
 - Data can hold unique or duplicate values
 
-## Downside
-Each node contains a pointer field to at least one other node (here next ).This means that much of the space used in linked data structures has to be devoted to pointers, not data.
+## Downsides
+- Since there is no index,  random access is not allowed.  Therefore to access an node we need to start from the head and follow the links to the next nodes until we find the one we want. Making the access process slow.
+- Each node contains a pointer field to at least one other node.This means that some space is used just for pointers, not data.
+
 
 ## Why is it important to understand Linked Lists
 Linked List and its variations are used as underlying data structure to implement List, Stack, Queue, and Deque ADTs
@@ -35,7 +37,7 @@ Linked List and its variations are used as underlying data structure to implemen
 - Access: O(N)
 
 ## Real life application
-Developing a game of cards we want to have a way to have all cards linked when they are in the deck. We would be able to shift()  to get the next  card on top of the pile and push() any new card to the bottom once is used.
+Developing a game of cards we want to have a way to have all cards linked when they are in the deck. We would be able to shift()  to get the next  card on top of the pile.
 
 ## Summary
 Singly Linked Lists are an excellent alternative to arrays when insertion and deletion at the beginning are frequently required.
