@@ -42,3 +42,5 @@ Developing a game of cards we want to have a way to have all cards linked when t
 ## Summary
 Singly Linked Lists are an excellent alternative to arrays when insertion and deletion at the beginning are frequently required.
 The idea of a list data structure that consist of nodes is the foundation for other data structures like Stacks and Queues.
+
+[Singly Linked List Micro Publication PDF](../../publications/singly_link_list.pdf)
